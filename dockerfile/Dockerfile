@@ -2,7 +2,7 @@ FROM alpine
 MAINTAINER Zeljko <mail@zeljko>
 
 # Add repo file
-ADD ./sander.repo /etc/yum.repos.d/
+ADD ./zeljko.repo /etc/yum.repos.d/
 
 # Install cool software
 RUN apk add bash nmap
