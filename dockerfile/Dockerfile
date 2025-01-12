@@ -1,8 +1,4 @@
 FROM alpine
-MAINTAINER Zeljko <mail@zeljkomandic.com>
-
-# Add repo file
-ADD ./zeljko.repo /etc/yum.repos.d/
 
 # Install cool software
 RUN apk add bash nmap
