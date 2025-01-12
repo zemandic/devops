@@ -1,5 +1,7 @@
 FROM alpine
 
+ADD zeljko.repo /etc/yum.repos
+
 # Install cool software
 RUN apk add bash nmap
 
