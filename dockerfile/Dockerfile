@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Zeljko <mail@zeljko>
+MAINTAINER Zeljko <mail@zeljkomandic.com>
 
 # Add repo file
 ADD ./zeljko.repo /etc/yum.repos.d/
